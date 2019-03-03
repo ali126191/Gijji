@@ -1,0 +1,26 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+$mainWhite:#fff;
+$sideWhite:#f4f4f4;
+$mainGrey: #ececec;
+$mainBlack: #222;
+$sideBlack: #34495e;
+$mainBlue:#2980b9;
+$sideBlue:#3498db;
+$mainRed:#c0392b;
+$sideRed:#e74c3c;
+
+body {
+  background: $mainWhite;
+  color: $mainBlack;
+  font-family: 'Open Sans',
+    sans-serif;
+}
+
+section {
+  padding:20px 40px;
+}

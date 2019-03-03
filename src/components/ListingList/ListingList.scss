@@ -1,0 +1,57 @@
+@import '../../index.scss';
+
+.listingList {
+  width:70vw;
+  margin: 0 auto;
+  padding:2rem 0;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label, 
+.input {
+  text-align: center;
+  display: block; 
+  margin: 7px auto;
+  min-width: 250px;
+}
+
+.header {
+  text-align: center;
+  padding:0.4rem 1rem;  
+  display: inline;
+}
+
+.search {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (min-width:768px) {
+  .listingList {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.5rem;
+  }
+
+}
+
+@media screen and (min-width:992px) {
+  .listingList {
+    width:85vw;
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .listingList {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
